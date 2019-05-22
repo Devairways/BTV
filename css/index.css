@@ -1,0 +1,111 @@
+/*		Algemene CSS		*/
+body{
+	background-color: #1D1B23;
+	opacity: 0.8;
+	background-size: contain;
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	max-width: 1130px;
+	margin: 0 auto 0 auto;
+}
+
+.grid-container1{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+.grid-container2{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-content: space-between;
+}
+
+.flex-container1{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.pad{
+	padding: 50px;
+}
+li{
+	padding: 5px 15px;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size:1.5em;
+}
+a:hover{
+	color: orange;
+}
+/*header sectie */
+.wrap{
+	display: flex;
+	flex-direction: row;
+
+}
+.nav-list{
+	align-content: flex-end;
+}
+.diensten{
+	max-width: 150px;
+	text-align: center;
+}
+.kleine-lnks{
+	display: flex;
+	margin: 0;
+	justify-content: flex-end;
+	align-content: flex-start;
+}
+nav{
+	padding-top: 80px;
+}
+span{
+	display: none;
+}
+/*banner sectie*/
+#slider{
+	display: flex;
+	height:700px;
+	background-image: url("../img/trees.jpg");
+	background-size: cover;
+	align-content: center;
+}
+#slider-btn{
+	font-size: 3em;
+	margin: auto;
+	text-align: center;
+}
+#slider-btn h1{
+	margin: 0;
+}
+#btn{
+	font-size: .3em;
+	border: 2px solid;
+	border-radius: 10px;
+	padding: 5px;
+}
+/*info secties*/
+video{
+	margin-left: 60px;
+	outline: none;
+	border-radius: 10px;
+}
+/*footer sectie*/
+footer{
+	background-color: #000;
+	color: #fff;
+	padding-bottom: 50px;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}

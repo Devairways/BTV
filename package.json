@@ -1,0 +1,14 @@
+{
+  "name": "bernisse-trike",
+  "version": "1.0.0",
+  "description": "Trike-verhuur en entertainment",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "author": "R.Heeffer",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
